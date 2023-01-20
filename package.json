@@ -1,0 +1,10 @@
+{
+  "name": "coding-test",
+  "version": "1.0.0",
+  "description": "> 코테 연습 한 것을 기록합니다.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-me:seunghyeokleeme/coding-test.git"
+  },
+  "author": "@seunghyeoklee"
+}
