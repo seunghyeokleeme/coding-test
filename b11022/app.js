@@ -10,6 +10,7 @@ for (let i = 1; i <= testCaseNum; ++i) {
 }
 
 solution(testCaseNum, testCaseArr);
+
 function solution(T, testCaseList) {
   for (let i = 0; i < T; ++i) {
     const testCase = testCaseList[i];
