@@ -9,7 +9,7 @@ const [N, ...input] = fs
 
 let str = "";
 for (let i = 0; i < N; i++) {
-  const arr1 = input[i].split("X").filter(Boolean);
+  const arr1 = input[i].split("X");
   let sum = 0;
   for (let j = 0; j < arr1.length; j++) {
     const num = arr1[j].length;
