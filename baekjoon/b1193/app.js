@@ -12,9 +12,7 @@ function solution(x) {
     line++;
   }
   const order = (line * (line + 1)) / 2 - x;
-  if (line % 2) {
-    console.log(`${order + 1}/${line - order}`);
-  } else {
-    console.log(`${line - order}/${order + 1}`);
-  }
+  const a = order + 1;
+  const b = line - order;
+  console.log(line % 2 ? `${a}/${b}` : `${b}/${a}`);
 }
