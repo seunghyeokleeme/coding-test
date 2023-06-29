@@ -1,1 +1,0 @@
-const solution = (name, yearning, photo) => photo.map(item => item.map(people => {let score = 0;for(let i=0; i < name.length; i++){if(people !== name[i]) continue;score = yearning[i];break;}return score;}).reduce((acc, cuv) => acc + cuv, 0));
