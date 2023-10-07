@@ -8,6 +8,7 @@ for (let i = 1; i <= testCaseT; ++i) {
 }
 
 solution(testCaseT, newArr);
+
 function solution(T, testCaseList) {
   for (let i = 0; i < T; ++i) {
     const baseArr = Array(testCaseList[i][1])
